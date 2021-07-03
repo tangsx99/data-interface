@@ -1,0 +1,15 @@
+首先初始化项目 server:
+
+npm init -y安装对应的插件:
+
+npm install express mysql body-parser cors --save其中:express是服务类型的一个插件
+
+mysql:是操作mysql数据库的插件
+
+body-parser:我这里主要是取得前端的值（req. body的是用)cors:解决跨域的问题
+
+创建3个js文件
+
+db.js用了访问mysql数据库的相关配置
+index.js是整个后台的入口文件
+router.js是相关的路由文件
